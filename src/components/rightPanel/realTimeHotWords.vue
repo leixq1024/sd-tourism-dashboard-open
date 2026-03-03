@@ -160,7 +160,7 @@ onMounted(() => {
 </script>
 
 <style lang="scss" scoped>
-::v-deep .panel-container {
+:deep(.panel-container) {
   display: flex;
   align-items: center;
   justify-content: space-between;
